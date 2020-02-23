@@ -1,0 +1,17 @@
+/* =============
+    Section 2
+============= */
+#section2{
+    .slide{
+        background-size: cover;
+        background-position:center;
+        background-blend-mode: multiply;
+    }
+    #slide1{
+        background-image:url("../img/bean.jpg");
+    }
+    #slide2{
+        background-image: url("../img/river.jpg");
+    }
+
+}

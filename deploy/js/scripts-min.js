@@ -1,0 +1,1 @@
+new fullpage("#fullPage",{autoScrolling:!0,navigation:!0,scrollingSpeed:1e3,controlArrows:!1,slidesNavigation:!0,loopHorizontal:!0,fixedElements:"#element1",continuousVertical:!0,navigationTooltips:["INTRO","SLIDES","FEATURES"],showActiveTooltip:!0,scrollOverflow:!0,scrollOverflowReset:!0});

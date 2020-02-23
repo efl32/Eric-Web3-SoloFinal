@@ -1,0 +1,24 @@
+/* =============
+    Base
+============= */
+figure{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    li{
+        list-style: none;
+    }
+}
+
+// adjustments to FullPage css
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: $white !important;
+}
+
+#fp-nav ul, .fp-slidesNav ul {
+        margin-left: 5vw !important;
+}
