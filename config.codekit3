@@ -27,23 +27,111 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/bean.jpg": {
+	"/deploy/img/dak-in.png": {
+		"ft": 32768,
+		"iS": 2765624,
+		"oA": 0,
+		"oAP": "/deploy/img/dak-in.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/dak-out.jpg": {
 		"ft": 16384,
-		"iS": 5942668,
+		"iS": 442220,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/bean.jpg",
+		"oAP": "/deploy/img/dak-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/river.jpg": {
+	"/deploy/img/lebow-in.jpg": {
 		"ft": 16384,
-		"iS": 1509922,
+		"iS": 110091,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/river.jpg",
+		"oAP": "/deploy/img/lebow-in.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/lebow-out.jpg": {
+		"ft": 16384,
+		"iS": 609187,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/lebow-out.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/main-in.jpg": {
+		"ft": 16384,
+		"iS": 684865,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/main-in.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/main-out.jpg": {
+		"ft": 16384,
+		"iS": 522476,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/main-out.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/papa-in.jpg": {
+		"ft": 16384,
+		"iS": 1366718,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/papa-in.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/papa-out.jpg": {
+		"ft": 16384,
+		"iS": 356752,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/papa-out.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/perel-in.jpg": {
+		"ft": 16384,
+		"iS": 418301,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/perel-in.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/perel-out.jpg": {
+		"ft": 16384,
+		"iS": 1057847,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/perel-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -68,6 +156,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/dak.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/dak.html",
+		"oF": 0
+		},
 	"/dev/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -86,6 +182,38 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/lebow.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/lebow.html",
+		"oF": 0
+		},
+	"/dev/mainBuilding.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/mainBuilding.html",
+		"oF": 0
+		},
+	"/dev/papa.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/papa.html",
+		"oF": 0
+		},
+	"/dev/perel.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/perel.html",
+		"oF": 0
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
@@ -217,7 +345,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_section1.scss": {
+	"/dev/scss/sections/_dak.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -225,12 +353,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_section1.css",
+		"oAP": "/dev/scss/sections/_dak.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_section2.scss": {
+	"/dev/scss/sections/_lebow.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -238,7 +366,46 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_section2.css",
+		"oAP": "/dev/scss/sections/_lebow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_mainBuilding.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_mainBuilding.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_papa.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_papa.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_perel.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_perel.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -255,22 +422,6 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
-		},
-	"/dev/section1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section1.html",
-		"oF": 0
-		},
-	"/dev/section2.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section2.html",
-		"oF": 0
 		},
 	"/LICENSE": {
 		"cB": 0,

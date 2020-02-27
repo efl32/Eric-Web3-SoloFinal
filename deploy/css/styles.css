@@ -369,23 +369,71 @@ textarea {
     Footer
 ============= */
 /* =============
-    Section 1
-============= */
-#section1 div {
-  background-image: url("../img/bean.jpg");
-  background-position: center;
-  background-size: cover; }
-
-/* =============
     Section 2
 ============= */
-#section2 .slide {
+#mainBuilding .slide {
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply; }
 
-#section2 #slide1 {
-  background-image: url("../img/bean.jpg"); }
+#mainBuilding #mainOut {
+  background-image: url("../img/main-out.jpg"); }
 
-#section2 #slide2 {
-  background-image: url("../img/river.jpg"); }
+#mainBuilding #mainIn {
+  background-image: url("../img/main-in.jpg"); }
+
+/* =============
+    Lebow
+============= */
+#lebow .slide {
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply; }
+
+#lebow #lebowOut {
+  background-image: url("../img/lebow-out.jpg"); }
+
+#lebow #lebowIn {
+  background-image: url("../img/lebow-in.jpg"); }
+
+/* =============
+    Section 1
+============= */
+#papa .slide {
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply; }
+
+#papa #papaOut {
+  background-image: url("../img/papa-out.jpg"); }
+
+#papa #papaIn {
+  background-image: url("../img/papa-in.jpg"); }
+
+/* =============
+    Dak
+============= */
+#dak .slide {
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply; }
+
+#dak #dakOut {
+  background-image: url("../img/dak-out.jpg"); }
+
+#dak #dakIn {
+  background-image: url("../img/dak-in.png"); }
+
+/* =============
+    Perel
+============= */
+#perel .slide {
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply; }
+
+#perel #perelOut {
+  background-image: url("../img/perel-out.jpg"); }
+
+#perel #perelIn {
+  background-image: url("../img/perel-in.jpg"); }

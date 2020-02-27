@@ -1,0 +1,17 @@
+/* =============
+    Perel
+============= */
+#perel{
+    .slide{
+        background-size: cover;
+        background-position:center;
+        background-blend-mode: multiply;
+    }
+    #perelOut{
+        background-image:url("../img/perel-out.jpg");
+    }
+    #perelIn{
+        background-image: url("../img/perel-in.jpg");
+    }
+
+}

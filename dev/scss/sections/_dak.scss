@@ -1,0 +1,17 @@
+/* =============
+    Dak
+============= */
+#dak{
+    .slide{
+        background-size: cover;
+        background-position:center;
+        background-blend-mode: multiply;
+    }
+    #dakOut{
+        background-image:url("../img/dak-out.jpg");
+    }
+    #dakIn{
+        background-image: url("../img/dak-in.png");
+    }
+
+}

@@ -1,0 +1,17 @@
+/* =============
+    Section 2
+============= */
+#mainBuilding{
+    .slide{
+        background-size: cover;
+        background-position:center;
+        background-blend-mode: multiply;
+    }
+    #mainOut{
+        background-image:url("../img/main-out.jpg");
+    }
+    #mainIn{
+        background-image: url("../img/main-in.jpg");
+    }
+
+}

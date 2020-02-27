@@ -1,0 +1,17 @@
+/* =============
+    Section 1
+============= */
+#papa{
+    .slide{
+        background-size: cover;
+        background-position:center;
+        background-blend-mode: multiply;
+    }
+    #papaOut{
+        background-image:url("../img/papa-out.jpg");
+    }
+    #papaIn{
+        background-image: url("../img/papa-in.jpg");
+    }
+
+}

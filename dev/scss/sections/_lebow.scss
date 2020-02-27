@@ -1,0 +1,17 @@
+/* =============
+    Lebow
+============= */
+#lebow{
+    .slide{
+        background-size: cover;
+        background-position:center;
+        background-blend-mode: multiply;
+    }
+    #lebowOut{
+        background-image:url("../img/lebow-out.jpg");
+    }
+    #lebowIn{
+        background-image: url("../img/lebow-in.jpg");
+    }
+
+}
