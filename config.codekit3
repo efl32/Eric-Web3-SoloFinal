@@ -164,14 +164,6 @@
 		"oAP": "/dev/dak.html",
 		"oF": 0
 		},
-	"/dev/index.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 2
-		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
@@ -197,6 +189,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/mainBuilding.html",
+		"oF": 0
+		},
+	"/dev/mainBuildingOverlay.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/mainBuildingOverlay.html",
 		"oF": 0
 		},
 	"/dev/papa.kit": {

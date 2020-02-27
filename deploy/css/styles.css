@@ -355,13 +355,6 @@ textarea {
 /* =============
     Navigation
 ============= */
-#nav {
-  bottom: 10px;
-  left: 10px;
-  width: 130px;
-  position: fixed;
-  z-index: 20; }
-
 /* =============
     Header
 ============= */
@@ -381,6 +374,11 @@ textarea {
 
 #mainBuilding #mainIn {
   background-image: url("../img/main-in.jpg"); }
+
+#mainBuilding #mainSVG {
+  position: fixed;
+  height: 100%;
+  z-index: 20; }
 
 /* =============
     Lebow
