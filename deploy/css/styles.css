@@ -375,11 +375,6 @@ textarea {
 #mainBuilding #mainIn {
   background-image: url("../img/main-in.jpg"); }
 
-#mainBuilding #mainSVG {
-  position: fixed;
-  height: 100%;
-  z-index: 20; }
-
 /* =============
     Lebow
 ============= */
