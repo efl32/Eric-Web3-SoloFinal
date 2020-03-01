@@ -17,6 +17,14 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
+	"/build/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/.gitignore",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -33,8 +41,8 @@
 		"oA": 0,
 		"oAP": "/deploy/img/dak-in.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -46,7 +54,7 @@
 		"oAP": "/deploy/img/dak-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/lebow-in.jpg": {
@@ -57,7 +65,7 @@
 		"oAP": "/deploy/img/lebow-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/lebow-out.jpg": {
@@ -68,7 +76,7 @@
 		"oAP": "/deploy/img/lebow-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/main-in.jpg": {
@@ -79,7 +87,7 @@
 		"oAP": "/deploy/img/main-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/main-out.jpg": {
@@ -90,7 +98,7 @@
 		"oAP": "/deploy/img/main-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/papa-in.jpg": {
@@ -101,7 +109,7 @@
 		"oAP": "/deploy/img/papa-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/papa-out.jpg": {
@@ -112,7 +120,7 @@
 		"oAP": "/deploy/img/papa-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/perel-in.jpg": {
@@ -123,7 +131,7 @@
 		"oAP": "/deploy/img/perel-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/perel-out.jpg": {
@@ -134,7 +142,7 @@
 		"oAP": "/deploy/img/perel-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/index.html": {
@@ -163,17 +171,6 @@
 		"oA": 1,
 		"oAP": "/dev/dak.html",
 		"oF": 0
-		},
-	"/dev/gsap.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/gsap.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/dev/index.kit": {
 		"cB": 0,
@@ -210,12 +207,12 @@
 		"oAP": "/dev/mainBuilding.html",
 		"oF": 0
 		},
-	"/dev/mainBuildingOverlay.kit": {
+	"/dev/Overlay.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/mainBuildingOverlay.html",
+		"oAP": "/dev/Overlay.html",
 		"oF": 1
 		},
 	"/dev/papa.kit": {
@@ -459,9 +456,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/LICENSE",
-		"oF": 0
+		"oF": 1
 		},
 	"/README.md": {
 		"cB": 0,
@@ -490,9 +487,10 @@
 "projectAttributes": {
 	"creationDate": 602813789.02200794,
 	"displayValue": "web3-Final",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-payne",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 604605278.94086397
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

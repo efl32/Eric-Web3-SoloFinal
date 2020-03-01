@@ -11,14 +11,14 @@ new fullpage('#fullPage', {
     loopHorizontal:true,
 
     // a fixed element over every screen
-    fixedElements: '#element1',
+    fixedElements: '#mainOutSVG, #mainInSVG',
 
     // Continuous Vertical scrolling
     continuousVertical:true,
 
     // showing tooltips on nav circles
-    navigationTooltips:['INTRO', 'SLIDES', 'FEATURES'],
-    showActiveTooltip:true,
+    navigationTooltips:['Main Building','Lebow Hall', 'Papadakis','Daskalakis', 'Perelman'],
+
 
     // pages which go beyond the viewport height
     scrollOverflow:true,
