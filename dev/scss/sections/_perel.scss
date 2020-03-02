@@ -2,15 +2,12 @@
     Perel
 ============= */
 #perel{
-    .slide{
-        background-size: cover;
-        background-position:center;
-        background-blend-mode: multiply;
-    }
     #perelOut{
+        display: none;
         background-image:url("../img/perel-out.jpg");
     }
     #perelIn{
+        display: none;
         background-image: url("../img/perel-in.jpg");
     }
 

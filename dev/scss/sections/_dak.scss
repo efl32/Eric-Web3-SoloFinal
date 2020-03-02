@@ -2,15 +2,12 @@
     Dak
 ============= */
 #dak{
-    .slide{
-        background-size: cover;
-        background-position:center;
-        background-blend-mode: multiply;
-    }
     #dakOut{
+        display: none;
         background-image:url("../img/dak-out.jpg");
     }
     #dakIn{
+        display: none;
         background-image: url("../img/dak-in.png");
     }
 

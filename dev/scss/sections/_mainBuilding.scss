@@ -2,15 +2,12 @@
     Section 2
 ============= */
 #mainBuilding{
-    .slide{
-        background-size: cover;
-        background-position:center;
-        background-blend-mode: multiply;
-    }
     #mainOut{
+        display: none;
         background-image:url("../img/main-out.jpg");
     }
     #mainIn{
+        display: none;
         background-image: url("../img/main-in.jpg");
     }
 }

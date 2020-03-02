@@ -13,16 +13,9 @@ ul{
         list-style: none;
     }
 }
-
-
-// adjustments to FullPage css
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
-    background: $black !important;
-    border: 4px solid $green !important;
-
-}
-
-#fp-nav ul, .fp-slidesNav ul {
-        margin-left: 93vw !important;
-
+.BGPhotos{
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    width: 100vw;
 }

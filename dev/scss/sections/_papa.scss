@@ -2,15 +2,12 @@
     Section 1
 ============= */
 #papa{
-    .slide{
-        background-size: cover;
-        background-position:center;
-        background-blend-mode: multiply;
-    }
     #papaOut{
+        display: none;
         background-image:url("../img/papa-out.jpg");
     }
     #papaIn{
+        display: none;
         background-image: url("../img/papa-in.jpg");
     }
 

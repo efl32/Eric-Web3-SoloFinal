@@ -321,12 +321,11 @@ ul {
   ul li {
     list-style: none; }
 
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
-  background: #000 !important;
-  border: 4px solid #1ebf29 !important; }
-
-#fp-nav ul, .fp-slidesNav ul {
-  margin-left: 93vw !important; }
+.BGPhotos {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw; }
 
 /* =============
     Typography
@@ -365,71 +364,56 @@ textarea {
 /* =============
     Section 2
 ============= */
-#mainBuilding .slide {
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply; }
-
 #mainBuilding #mainOut {
+  display: none;
   background-image: url("../img/main-out.jpg"); }
 
 #mainBuilding #mainIn {
+  display: none;
   background-image: url("../img/main-in.jpg"); }
 
 /* =============
     Lebow
 ============= */
-#lebow .slide {
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply; }
-
 #lebow #lebowOut {
+  display: none;
   background-image: url("../img/lebow-out.jpg"); }
 
 #lebow #lebowIn {
+  display: none;
   background-image: url("../img/lebow-in.jpg"); }
 
 /* =============
     Section 1
 ============= */
-#papa .slide {
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply; }
-
 #papa #papaOut {
+  display: none;
   background-image: url("../img/papa-out.jpg"); }
 
 #papa #papaIn {
+  display: none;
   background-image: url("../img/papa-in.jpg"); }
 
 /* =============
     Dak
 ============= */
-#dak .slide {
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply; }
-
 #dak #dakOut {
+  display: none;
   background-image: url("../img/dak-out.jpg"); }
 
 #dak #dakIn {
+  display: none;
   background-image: url("../img/dak-in.png"); }
 
 /* =============
     Perel
 ============= */
-#perel .slide {
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply; }
-
 #perel #perelOut {
+  display: none;
   background-image: url("../img/perel-out.jpg"); }
 
 #perel #perelIn {
+  display: none;
   background-image: url("../img/perel-in.jpg"); }
 
 #mainOutSVG {

@@ -2,15 +2,12 @@
     Lebow
 ============= */
 #lebow{
-    .slide{
-        background-size: cover;
-        background-position:center;
-        background-blend-mode: multiply;
-    }
     #lebowOut{
+        display: none;
         background-image:url("../img/lebow-out.jpg");
     }
     #lebowIn{
+        display: none;
         background-image: url("../img/lebow-in.jpg");
     }
 
