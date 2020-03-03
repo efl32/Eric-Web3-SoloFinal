@@ -5,68 +5,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Font Awesome -->
-    <!-- Full Page CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300|Quicksand:500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Drexel Architecture</title>
 </head>
 
 <body>
     <main>
+        <section id="nav">
+            <div id="burgerContainer">
+                <svg version="1.1" id="burger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="368.16px" height="308px" viewBox="0 0 368.16 308" style="enable-background:new 0 0 368.16 308;"
+                    xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {
+                            fill: #fff;
+                        }
+                    </style>
+                    <path class="st0" d="M342.07,52h-316c-14.36,0-26-11.64-26-26v0c0-14.36,11.64-26,26-26h316c14.36,0,26,11.64,26,26v0
+        	C368.07,40.36,356.43,52,342.07,52z" />
+                    <path class="st0" d="M342.07,308h-316c-14.36,0-26-11.64-26-26v0c0-14.36,11.64-26,26-26h316c14.36,0,26,11.64,26,26v0
+        	C368.07,296.36,356.43,308,342.07,308z" />
+                    <path class="st0" d="M342.07,180h-316c-14.36,0-26-11.64-26-26v0c0-14.36,11.64-26,26-26h316c14.36,0,26,11.64,26,26v0
+        	C368.07,168.36,356.43,180,342.07,180z" />
+                </svg>
+            </div>
+            <div id="cameraContainer">
+                <svg version="1.1" id="camera" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="368.16px" height="248px" viewBox="0 0 368.16 248" style="enable-background:new 0 0 368.16 248;"
+                    xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {
+                            fill: #fff;
+                        }
+        
+                        .st1 {
+                            fill: #fff;
+                            stroke: #07294D;
+                            stroke-width: 24;
+                            stroke-miterlimit: 10;
+                        }
+                    </style>
+                    <path id="cameraBody" class="st0" d="M259.07,33L259.07,33c0-18.23-14.77-33-33-33h-84c-18.23,0-33,14.77-33,33v0
+        	c0,18.23-14.77,33-33,33h-43c-18.23,0-33,14.77-33,33v116c0,18.23,14.77,33,33,33h302c18.23,0,33-14.77,33-33V99
+        	c0-18.23-14.77-33-33-33h-43C273.84,66,259.07,51.23,259.07,33z" />
+                    <circle id="lens" class="st1" cx="184.57" cy="139.5" r="62.5" />
+                    <g>
+                        <g>
+                            <path class="st0" d="M-14.23-23.23c1.93,0,1.93-3,0-3C-16.16-26.23-16.17-23.23-14.23-23.23L-14.23-23.23z" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div id="insideContainer">
+                <svg version="1.1" id="inside" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 360 360">
+                    <path id="openDoor"
+                        d="M179.99 0C80.58 0-.01 80.59-.01 180c0 71.07 41.19 132.51 101 161.77V122s10-56 78-56c40.56 0 60.55 18.27 70.25 33.94-6.18-7.84-16.84-15.63-35.25-18.94-39-7-47 28-47 28l.27 12-.27 179 91 42v.27c60.35-29.06 102-90.8 102-162.27 0-99.41-80.59-180-180-180zm77.7 120.41c.05.21.09.41.12.59h-.09s0-.21-.03-.59z"
+                        fill="#fff" />
+                </svg>
+            </div>
+            <div id="navItemsContainer">
+                <div class="navItems" id="mainBuildingNav">
+                    <h5>MAIN BUILDING</h5>
+                </div>
+                <div class="navItems" id="lebowNav">
+                    <h5>LEBOW BUISINESS</h5>
+                </div>
+                <div class="navItems" id="papaNav">
+                    <h5>PAPADAKIS SCIENCES</h5>
+                </div>
+                <div class="navItems" id="dakNav">
+                    <h5>DASKALAKIS REC</h5>
+                </div>
+                <div class="navItems" id="perelNav">
+                    <h5>PERELMAN CENTER</h5>
+                </div>
+            </div>
+        </section>
+        
         <div id="mainOutSVG">
-        </div>
-        <div id="mainInSVG">
-        </div>
-        
-        
-                <section id="mainBuilding">
-                    <div class="BGPhotos" id="mainOut">
-                    </div>
-                    <div class="BGPhotos" id="mainIn">
-                    </div>
-                </section>
+                </div>
+                <div id="mainInSVG">
+                </div>
                 
-        <section id="lebow">
-                            <div class="BGPhotos" id="lebowOut">
+        
+                        <section id="mainBuilding">
+                            <div class="BGPhotos" id="mainOut">
                             </div>
-                            <div class="BGPhotos" id="lebowIn">
+                            <div class="BGPhotos" id="mainIn">
                             </div>
                         </section>
                         
-        <section id="papa">
-                                    <div class="BGPhotos" id="papaOut">
+        <section id="lebow">
+                                    <div class="BGPhotos" id="lebowOut">
                                     </div>
-                                    <div class="BGPhotos" id="papaIn">
+                                    <div class="BGPhotos" id="lebowIn">
                                     </div>
                                 </section>
                                 
-        <section id="dak">
-                                            <div class="BGPhotos" id="dakOut">
+        <section id="papa">
+                                            <div class="BGPhotos" id="papaOut">
                                             </div>
-                                            <div class="BGPhotos" id="dakIn">
+                                            <div class="BGPhotos" id="papaIn">
                                             </div>
                                         </section>
                                         
-        <section id="perel">
-                                                    <div class="BGPhotos" id="perelOut">
+        <section id="dak">
+                                                    <div class="BGPhotos" id="dakOut">
                                                     </div>
-                                                    <div class="BGPhotos" id="perelIn">
+                                                    <div class="BGPhotos" id="dakIn">
                                                     </div>
                                                 </section>
                                                 
+        <section id="perel">
+                                                            <div class="BGPhotos" id="perelOut">
+                                                            </div>
+                                                            <div class="BGPhotos" id="perelIn">
+                                                            </div>
+                                                        </section>
+                                                        
     </main>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Greensock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.2/gsap.min.js"></script>
-
-    <script src="../node_modules/notifyjs-browser/dist/notify.js"></script>
-
-    <script src="../node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
-
-    <script src="../node_modules/waypoints/lib/shortcuts/inview.js"></script>
 
     <script src="js/scripts-min.js"></script>
 </body>
