@@ -25,6 +25,12 @@
 		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
+	"/build/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/build/node_modules",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -153,6 +159,28 @@
 		"oAP": "/deploy/index.html",
 		"oF": 0
 		},
+	"/deploy/js/DrawSVGPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/DrawSVGPlugin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/deploy/js/MorphSVGPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/MorphSVGPlugin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -221,17 +249,6 @@
 		"oA": 1,
 		"oAP": "/dev/js/menu/burger-min.js",
 		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/MorphSVGPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/MorphSVGPlugin-min.js",
-		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -529,6 +546,14 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
+	"/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -559,7 +584,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-payne",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 604605278.94086397
+	"lastBuiltDate": 604941755.43897295
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
