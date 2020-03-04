@@ -2,21 +2,6 @@
     Navigation
 ============= */
 #nav{
-    .navItems{
-        font-size: rem-calc(20);
-        font-family: Quicksand;
-        font-weight: 500;
-        padding: 6px 0px;
-        width: 170px;
-        text-align: center;
-        position: fixed;
-        left: 20px;
-        bottom: 32px;
-        background-color: $white;
-        border-radius: 100px;
-        color: $blue;
-
-    }
     #burgerContainer{
         display: flex;
         cursor: pointer;
@@ -69,16 +54,14 @@
             height: 40px;
         }
     }
+
     #navItemsContainer{
-        #mainBuildingNav{
-        }
-        #lebowNav{
-        }
-        #papaNav{
-        }
-        #dakNav{
-        }
-        #perelNav{
+        ul{
+            li{
+                font-family: Quicksand;
+                font-size: rem-calc(22);
+                font-weight: 500;
+            }
         }
     }
 }

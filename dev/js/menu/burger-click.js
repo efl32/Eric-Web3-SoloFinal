@@ -1,10 +1,8 @@
 var burgerClick = gsap.timeline({paused: true});
 
-burgerClick.to("#mainBuildingNav", {duration: 0.08, x: 72},"Item1")
-.to("#lebowNav", {duration: 0.08, x: 72},"Item1")
-.to("#papaNav", {duration: 0.08, x: 72},"Item1")
-.to("#dakNav", {duration: 0.08, x: 72},"Item1")
-.to("#perelNav", {duration: 0.08, x: 72},"Item1")
+burgerClick.to("#burger", {duration: 0.25, scaleX: .2},"click")
+.to("#topLine", {duration: 0.25, y: 50},"click")
+.to("#bottomLine", {duration: 0.25, y: -50},"click");
 
 $("#burgerContainer").on("click", burgerClick);
 
