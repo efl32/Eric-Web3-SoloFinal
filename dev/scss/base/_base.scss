@@ -13,11 +13,8 @@ ul{
         list-style: none;
     }
 }
-.BGPhotos{
-    background-size: cover;
-    background-position:center;
-    height: 70vh;
-    width: 80vw;
-    margin-left: 10vw;
-    margin-top: 6vh;
+main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "building" "info";
 }

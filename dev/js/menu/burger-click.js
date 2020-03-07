@@ -1,6 +1,6 @@
 var burgerClick = gsap.timeline({paused: true});
 
-burgerClick.to("#burger", {duration: 0.25, scaleX: .2},"click")
+burgerClick.to("#burgerContainer", {duration: 0.25, scaleX: .2},"click")
 .to("#topLine", {duration: 0.25, y: 50},"click")
 .to("#bottomLine", {duration: 0.25, y: -50},"click");
 

@@ -1,0 +1,13 @@
+#info{
+    background-color: $blue;
+    position: fixed;
+    grid-area: info;
+    width: 100%;
+    height: 40vh;
+    bottom: 0;
+    min-height: 200px;
+    z-index: 500;
+    #mainBuildingInfo{
+
+    }
+}

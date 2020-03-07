@@ -2,12 +2,27 @@
     Section 2
 ============= */
 #mainBuilding{
+    grid-area: building;
     #mainOut{
-        display: none;
-        background-image:url("../img/main-out.jpg");
+        display: flex;
+        height: 60vh;
+        align-items: center;
+        svg{
+            display: block;
+            max-width: 100%;
+            max-height: 60vh;
+            position: absolute;
+        }
     }
     #mainIn{
         display: none;
-        background-image: url("../img/main-in.jpg");
+        height: 60vh;
+        align-items: center;
+        svg{
+            display: block;
+            max-width: 100%;
+            max-height: 60vh;
+            position: absolute;
+        }
     }
 }

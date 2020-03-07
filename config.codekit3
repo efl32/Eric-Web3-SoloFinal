@@ -25,6 +25,12 @@
 		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
+	"/build/build/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/build/build/node_modules",
+		"oF": 0
+		},
 	"/build/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -208,12 +214,20 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/info.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/info.html",
+		"oF": 0
+		},
 	"/dev/js/menu/burger-click.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/js/menu/burger-click-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -224,7 +238,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/js/menu/burger-mouseenter-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -235,7 +249,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/js/menu/burger-mouseleave-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -246,7 +260,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/js/menu/burger-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -286,14 +300,6 @@
 		"oA": 1,
 		"oAP": "/dev/nav.html",
 		"oF": 0
-		},
-	"/dev/Overlay.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/Overlay.html",
-		"oF": 1
 		},
 	"/dev/papa.kit": {
 		"cB": 0,
@@ -454,6 +460,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_info.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_info.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_lebow.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -476,19 +495,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_mainBuilding.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_overlays.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_overlays.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -584,7 +590,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-payne",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 604941755.43897295
+	"lastBuiltDate": 605117045.28436005
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2065,7 +2071,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "gsap, fullpage",
+	"jsCheckerReservedNamesString": "gsap, fullpage, DrawSVGPlugin, MorphSVGPlugin",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
