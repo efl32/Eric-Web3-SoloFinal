@@ -47,114 +47,114 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/dak-in.png": {
-		"ft": 32768,
-		"iS": 2765624,
-		"oA": 0,
-		"oAP": "/deploy/img/dak-in.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/dak-out.jpg": {
+	"/deploy/img/dac-in.jpg": {
 		"ft": 16384,
-		"iS": 442220,
+		"iS": 784917,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/dak-out.jpg",
+		"oAP": "/deploy/img/dac-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/dac-out.jpg": {
+		"ft": 16384,
+		"iS": 674706,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/dac-out.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/lebow-in.jpg": {
 		"ft": 16384,
-		"iS": 110091,
+		"iS": 515083,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/lebow-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/lebow-out.jpg": {
 		"ft": 16384,
-		"iS": 609187,
+		"iS": 707322,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/lebow-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/main-in.jpg": {
 		"ft": 16384,
-		"iS": 684865,
+		"iS": 866733,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/main-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/main-out.jpg": {
 		"ft": 16384,
-		"iS": 522476,
+		"iS": 854378,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/main-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/papa-in.jpg": {
 		"ft": 16384,
-		"iS": 1366718,
+		"iS": 760534,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/papa-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/papa-out.jpg": {
 		"ft": 16384,
-		"iS": 356752,
+		"iS": 613558,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/papa-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/perel-in.jpg": {
 		"ft": 16384,
-		"iS": 418301,
+		"iS": 521475,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/perel-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/perel-out.jpg": {
 		"ft": 16384,
-		"iS": 1057847,
+		"iS": 842512,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/perel-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/index.html": {
@@ -198,12 +198,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/dak.kit": {
+	"/dev/building.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/dak.html",
+		"oAP": "/dev/building.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {
@@ -277,44 +277,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/lebow.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/lebow.html",
-		"oF": 0
-		},
-	"/dev/mainBuilding.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/mainBuilding.html",
-		"oF": 0
-		},
 	"/dev/nav.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/nav.html",
-		"oF": 0
-		},
-	"/dev/papa.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/papa.html",
-		"oF": 0
-		},
-	"/dev/perel.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/perel.html",
 		"oF": 0
 		},
 	"/dev/scss/base/_base.scss": {
@@ -447,7 +415,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_dak.scss": {
+	"/dev/scss/sections/_building.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -455,7 +423,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_dak.css",
+		"oAP": "/dev/scss/sections/_building.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -469,58 +437,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_info.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_lebow.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_lebow.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_mainBuilding.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_mainBuilding.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_papa.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_papa.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_perel.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_perel.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

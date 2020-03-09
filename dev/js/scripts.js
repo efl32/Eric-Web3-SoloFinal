@@ -13,5 +13,3 @@ gsap.to("#svg8a", {duration:3, morphSVG: "#svg8b"});
 gsap.to("#svg9a", {duration:3, morphSVG: "#svg9b"});
 gsap.to("#svg10a", {duration:3, morphSVG: "#svg10b"});
 gsap.to("#blankBGa", {duration:3, morphSVG: "#blankBGb"});
-
-gsap.to("#blankBGa", {delay: 3, duration:1, alpha: 0});

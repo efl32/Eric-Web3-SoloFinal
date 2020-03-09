@@ -15,6 +15,10 @@ ul{
 }
 main{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
     grid-template-areas: "building" "info";
+    @include md{
+        grid-template-columns: 35vw 65vw;
+        grid-template-areas: "info building";
+    }
 }

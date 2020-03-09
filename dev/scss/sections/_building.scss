@@ -1,0 +1,18 @@
+/* =============
+    building
+============= */
+#building{
+    grid-area: building;
+    display: flex;
+    align-items: center;
+    z-index: 45;
+    svg{
+        display: block;
+        position: absolute;
+    }
+    @include md{
+        svg{
+            width: 60vw;
+        }
+    }
+}
