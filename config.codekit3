@@ -47,6 +47,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/background.png": {
+		"ft": 32768,
+		"iS": 2791788,
+		"oA": 0,
+		"oAP": "/deploy/img/background.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/dac-in.jpg": {
 		"ft": 16384,
 		"iS": 784917,
@@ -198,6 +209,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/address.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/address.html",
+		"oF": 1
+		},
 	"/dev/building.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -276,14 +295,6 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
-		},
-	"/dev/nav.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/nav.html",
-		"oF": 0
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
@@ -411,6 +422,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_address.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_address.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

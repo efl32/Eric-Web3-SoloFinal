@@ -3,16 +3,17 @@
 ============= */
 #building{
     grid-area: building;
-    display: flex;
-    align-items: center;
-    z-index: 45;
-    svg{
-        display: block;
-        position: absolute;
+    margin-right: 40px;
+    display:block;
+    align-self:flex-end;
+    div{
+        align-self: center;
+        height: 100%;
+        overflow: hidden;
     }
-    @include md{
-        svg{
-            width: 60vw;
+    #mainBuilding{
+        #mainBuildingIn{
+            display: none;
         }
     }
 }

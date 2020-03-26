@@ -315,6 +315,9 @@ figure {
   padding: 0;
   margin: 0; }
 
+a {
+  text-decoration: none; }
+
 ul {
   padding: 0;
   margin: 0; }
@@ -322,13 +325,14 @@ ul {
     list-style: none; }
 
 main {
+  background-image: url("../img/background.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
   display: grid;
-  grid-template-rows: auto;
-  grid-template-areas: "building" "info"; }
-  @media (min-width: 768px) {
-    main {
-      grid-template-columns: 35vw 65vw;
-      grid-template-areas: "info building"; } }
+  grid-template-rows: auto auto 330px;
+  grid-template-areas: "building" "address" "info"; }
 
 /* =============
     Typography
@@ -339,14 +343,18 @@ h1, h2, h3, h4, h5, p {
 
 h1 {
   font-family: Quicksand;
-  font-size: 1.875rem;
-  font-weight: 600; }
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  color: #FFC600; }
 
 p {
   font-family: Noto Sans TC;
   font-size: 1rem;
   font-weight: 300;
-  line-height: 1.375rem; }
+  line-height: 1.375rem;
+  text-align: justify;
+  color: #fff; }
 
 /* =============
     Buttons
@@ -369,58 +377,6 @@ textarea {
 /* =============
     Navigation
 ============= */
-#nav {
-  display: none; }
-  #nav #burgerContainer {
-    display: flex;
-    cursor: pointer;
-    z-index: 100;
-    background-color: #07294D;
-    border-radius: 100px; }
-    #nav #burgerContainer #burger {
-      align-self: center;
-      margin: 14px;
-      text-align: center;
-      width: 40px;
-      height: 40px; }
-  #nav #cameraContainer {
-    display: flex;
-    cursor: pointer;
-    z-index: 100;
-    position: fixed;
-    left: 100px;
-    bottom: 20px;
-    background-color: #07294D;
-    border-radius: 100px; }
-    #nav #cameraContainer #camera {
-      align-self: center;
-      margin: 14px;
-      text-align: center;
-      width: 40px;
-      height: 40px; }
-  #nav #insideContainer {
-    display: flex;
-    cursor: pointer;
-    z-index: 100;
-    position: fixed;
-    left: 180px;
-    bottom: 20px;
-    background-color: #07294D;
-    border-radius: 100px; }
-    #nav #insideContainer #inside {
-      color: #fff;
-      align-self: center;
-      margin: 14px;
-      text-align: center;
-      width: 40px;
-      height: 40px; }
-  #nav #navItemsContainer {
-    display: none; }
-    #nav #navItemsContainer ul li {
-      font-family: Quicksand;
-      font-size: 1.375rem;
-      font-weight: 500; }
-
 /* =============
     Header
 ============= */
@@ -432,61 +388,55 @@ textarea {
 ============= */
 #building {
   grid-area: building;
-  display: flex;
-  align-items: center;
-  z-index: 45; }
-  #building svg {
-    display: block;
-    position: absolute; }
-  @media (min-width: 768px) {
-    #building svg {
-      width: 60vw; } }
+  margin-right: 40px;
+  display: block;
+  align-self: flex-end; }
+  #building div {
+    align-self: center;
+    height: 100%;
+    overflow: hidden; }
+  #building #mainBuilding #mainBuildingIn {
+    display: none; }
 
 #info {
-  border: 1px solid #07294D;
   grid-area: info;
-  z-index: 50;
-  position: absolute;
+  background-color: #07294D;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  height: 330px;
   bottom: 0;
-  background-color: #fff; }
-  @media (min-width: 768px) {
-    #info {
-      height: 100vh;
-      max-width: 300px;
-      display: flex;
-      align-items: center;
-      position: relative;
-      bottom: auto; } }
-  #info h1 {
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px; }
-    @media (min-width: 768px) {
-      #info h1 {
-        text-align: left;
-        padding-left: 20px; } }
-  #info p {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px; }
-    @media (min-width: 576px) {
-      #info p {
-        column-count: 2;
-        column-gap: 20px;
-        padding-left: 10vw;
-        padding-right: 10vw; } }
-    @media (min-width: 768px) {
-      #info p {
-        column-count: 1;
-        padding-left: 20px;
-        padding-right: 20px; } }
-  #info #mainBuildingInfo {
-    display: block; }
-  #info #lebowInfo {
+  position: fixed; }
+  #info div {
+    padding: 20px; }
+  #info div:nth-child(2) {
     display: none; }
-  #info #papaInfo {
+  #info div:nth-child(3) {
     display: none; }
-  #info #dacInfo {
+  #info div:nth-child(4) {
     display: none; }
-  #info #perelInfo {
+  #info div:nth-child(5) {
+    display: none; }
+
+#address {
+  grid-area: address;
+  padding-left: 40px;
+  align-self: center; }
+  #address .iconAndText {
+    display: flex;
+    align-items: center; }
+    #address .iconAndText p {
+      padding-left: 20px; }
+    #address .iconAndText i {
+      color: #FFC600; }
+  #address .addressBG {
+    background-color: #07294D;
+    padding: 10px 20px; }
+  #address #lebowAddress {
+    display: none; }
+  #address #papaAddress {
+    display: none; }
+  #address #dacAddress {
+    display: none; }
+  #address #perelAddress {
     display: none; }
