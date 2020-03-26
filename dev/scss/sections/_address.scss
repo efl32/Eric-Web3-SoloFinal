@@ -2,7 +2,7 @@
     grid-area: address;
     padding-left: 40px;
     align-self: center;
-    
+
     .iconAndText{
         display: flex;
         align-items: center;
@@ -11,7 +11,13 @@
         }
         i{
             color: $yellow;
+            transition: 0.4s;
+
         }
+    }
+    .iconAndText:hover i{
+        color: $white;
+        padding-left: 40px;
     }
 
     .addressBG{

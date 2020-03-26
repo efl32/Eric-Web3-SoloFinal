@@ -6,14 +6,24 @@
     margin-right: 40px;
     display:block;
     align-self:flex-end;
+    margin-top: 60px;
     div{
         align-self: center;
         height: 100%;
         overflow: hidden;
     }
     #mainBuilding{
-        #mainBuildingIn{
-            display: none;
-        }
+    }
+    #lebow{
+        display: none;
+    }
+    #papa{
+        display: none;
+    }
+    #dac{
+        display: none;
+    }
+    #perel{
+        display: none;
     }
 }
