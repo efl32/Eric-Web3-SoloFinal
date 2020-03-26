@@ -17,26 +17,6 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
-	"/build/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/.gitignore",
-		"oF": 0
-		},
-	"/build/build/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "/build/build/build/node_modules",
-		"oF": 0
-		},
-	"/build/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "/build/build/node_modules",
-		"oF": 0
-		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -533,38 +513,11 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/LICENSE": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/LICENSE",
-		"oF": 1
-		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "/build/node_modules",
 		"oF": 0
-		},
-	"/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		}
 	},
 "hooks": [
