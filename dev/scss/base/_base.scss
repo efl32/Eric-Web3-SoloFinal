@@ -1,27 +1,43 @@
 /* =============
     Base
 ============= */
-figure{
+figure {
     padding: 0;
     margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     padding: 0;
     margin: 0;
-    li{
+
+    li {
         list-style: none;
     }
 }
-main{
+
+main {
     background-image: url("../img/background.png");
     background-position: center;
     background-size: cover;
+    background-color: $blue;
     position: relative;
     height: 100vh;
     display: grid;
-    grid-template-rows: auto auto 330px;
+    grid-template-rows: auto auto 370px;
     grid-template-areas: "building" "address" "info";
+    @include md {
+        grid-template-rows: auto;
+        grid-template-columns: 35vw auto;
+        grid-template-areas: "info building"". address";
+    }
+    @include lg {
+        grid-template-columns: 25vw auto;
+    }
+    @include xl {
+        grid-template-columns: 20vw auto;
+    }
 }

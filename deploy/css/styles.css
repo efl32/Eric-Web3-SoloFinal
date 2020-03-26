@@ -328,28 +328,45 @@ main {
   background-image: url("../img/background.png");
   background-position: center;
   background-size: cover;
+  background-color: #07294D;
   position: relative;
   height: 100vh;
   display: grid;
-  grid-template-rows: auto auto 330px;
+  grid-template-rows: auto auto 370px;
   grid-template-areas: "building" "address" "info"; }
+  @media (min-width: 768px) {
+    main {
+      grid-template-rows: auto;
+      grid-template-columns: 35vw auto;
+      grid-template-areas: "info building" ". address"; } }
+  @media (min-width: 992px) {
+    main {
+      grid-template-columns: 25vw auto; } }
+  @media (min-width: 1200px) {
+    main {
+      grid-template-columns: 20vw auto; } }
 
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   padding: 0;
   margin: 0; }
 
 h1 {
-  font-family: Quicksand;
-  font-size: 1.625rem;
+  font-family: "Sen";
+  font-size: 1.875rem;
   font-weight: 600;
   line-height: 2.5rem;
   color: #FFC600; }
 
 p {
-  font-family: Noto Sans TC;
+  font-family: "Noto Sans TC";
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.375rem;
@@ -380,6 +397,45 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #07294D;
+  display: grid;
+  grid-template-columns: 20px auto 20px;
+  grid-template-areas: ". header .";
+  z-index: 2000;
+  top: 0; }
+  @media (min-width: 576px) {
+    header {
+      grid-template-columns: auto 400px 20px; } }
+  header .button {
+    background-color: #FFC600;
+    color: #07294D;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: 0.4s;
+    cursor: pointer; }
+  header .button:hover {
+    background-color: #fff; }
+  header > div {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px; }
+    header > div i {
+      font-size: 2.5rem;
+      align-self: center;
+      cursor: pointer;
+      color: #FFC600;
+      transition: 0.4s; }
+    header > div i:hover {
+      color: #fff; }
+
 /* =============
     Footer
 ============= */
@@ -388,10 +444,29 @@ textarea {
 ============= */
 #building {
   grid-area: building;
-  margin-right: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
   display: block;
   align-self: flex-end;
-  margin-top: 60px; }
+  margin-top: 30px; }
+  @media (min-width: 768px) {
+    #building {
+      width: 59vw;
+      position: fixed;
+      right: 3vw;
+      margin-left: 0;
+      margin-right: 0;
+      align-self: center;
+      display: inline;
+      margin-top: 25vh; } }
+  @media (min-width: 992px) {
+    #building {
+      margin-top: 14vh;
+      width: 69vw; } }
+  @media (min-width: 1200px) {
+    #building {
+      margin-top: 8vh;
+      width: 74vw; } }
   #building div {
     align-self: center;
     height: 100%;
@@ -411,9 +486,26 @@ textarea {
   display: flex;
   align-items: center;
   align-self: center;
-  height: 330px;
+  height: 370px;
   bottom: 0;
   position: fixed; }
+  @media (min-width: 576px) {
+    #info {
+      height: 200px; } }
+  @media (min-width: 768px) {
+    #info {
+      height: 200px;
+      display: block;
+      bottom: auto;
+      width: 35vw;
+      height: 100vh;
+      padding-top: 50px; } }
+  @media (min-width: 992px) {
+    #info {
+      width: 25vw; } }
+  @media (min-width: 1200px) {
+    #info {
+      width: 20vw; } }
   #info div {
     padding: 20px; }
   #info div:nth-child(2) {
@@ -427,11 +519,22 @@ textarea {
 
 #address {
   grid-area: address;
-  padding-left: 40px;
-  align-self: center; }
+  align-self: flex-end; }
+  @media (min-width: 768px) {
+    #address {
+      z-index: 5000000;
+      padding-left: 0;
+      justify-content: center; } }
+  @media (min-width: 992px) {
+    #address {
+      width: 100%; } }
   #address .iconAndText {
     display: flex;
     align-items: center; }
+    @media (min-width: 768px) {
+      #address .iconAndText {
+        display: inline-block;
+        padding-left: 20%; } }
     #address .iconAndText p {
       padding-left: 20px; }
     #address .iconAndText i {

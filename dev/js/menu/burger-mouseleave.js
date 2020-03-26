@@ -1,4 +1,4 @@
-$("#burgerContainer").on("mouseleave", function(){
+$("#burgerSection").on("mouseleave", function(){
     console.log("mouse leave");
 
     if(canYouSeeNav === false){

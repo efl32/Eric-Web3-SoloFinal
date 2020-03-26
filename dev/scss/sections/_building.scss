@@ -1,29 +1,53 @@
 /* =============
     building
 ============= */
-#building{
+#building {
     grid-area: building;
-    margin-right: 40px;
-    display:block;
-    align-self:flex-end;
-    margin-top: 60px;
-    div{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: block;
+    align-self: flex-end;
+    margin-top: 30px;
+    @include md {
+        width: 59vw;
+        position: fixed;
+        right: 3vw;
+        margin-left: 0;
+        margin-right: 0;
+        align-self: center;
+        display: inline;
+        margin-top: 25vh;
+    }
+    @include lg {
+        margin-top: 14vh;
+        width: 69vw;
+    }
+    @include xl {
+        margin-top: 8vh;
+        width: 74vw;
+    }
+
+    div {
         align-self: center;
         height: 100%;
         overflow: hidden;
     }
-    #mainBuilding{
-    }
-    #lebow{
+
+    #mainBuilding {}
+
+    #lebow {
         display: none;
     }
-    #papa{
+
+    #papa {
         display: none;
     }
-    #dac{
+
+    #dac {
         display: none;
     }
-    #perel{
+
+    #perel {
         display: none;
     }
 }
